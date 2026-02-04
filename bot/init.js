@@ -12,36 +12,24 @@ console.log('╔═════════════════════�
 console.log('║   Discord Staff Management Bot - Initialization      ║');
 console.log('╚═══════════════════════════════════════════════════════╝\n');
 
-// Check if .env file exists
+// Load environment variables if .env exists, but prioritize system secrets
 const envPath = path.join(__dirname, '.env');
-const hasEnvFile = fs.existsSync(envPath);
-
-if (hasEnvFile) {
-  // Load environment variables from .env
+if (fs.existsSync(envPath)) {
   require('dotenv').config();
-  console.log('✅ Environment variables loaded from .env');
-} else {
-  console.log('ℹ️  .env file not found, using system environment variables');
 }
 
-// Validate required environment variables
+// Validate required environment variables from Replit Secrets/System
 const requiredVars = ['DISCORD_TOKEN', 'CLIENT_ID'];
 const missing = requiredVars.filter(varName => !process.env[varName]);
 
 if (missing.length > 0) {
-  if (!hasEnvFile) {
-    console.error('❌ ERROR: Missing required environment variables and no .env file found!');
-    console.error('Please add DISCORD_TOKEN and CLIENT_ID to Replit Secrets or create a .env file.');
-  } else {
-    console.error('❌ ERROR: Missing required environment variables in .env:');
-    missing.forEach(varName => console.error(`   - ${varName}`));
-  }
+  console.error('❌ ERROR: Missing required environment variables in Replit Secrets:');
+  missing.forEach(varName => console.error(`   - ${varName}`));
+  console.error('\nPlease add DISCORD_TOKEN and CLIENT_ID to your Replit Secrets tab.');
   process.exit(1);
 }
 
-if (!hasEnvFile) {
-  console.log('✅ Required environment variables verified from system');
-}
+console.log('✅ Environment variables loaded from Replit Secrets');
 
 // Ensure data directory exists
 const dataDir = path.join(__dirname, 'data');
