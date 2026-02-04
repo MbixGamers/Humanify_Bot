@@ -8,9 +8,9 @@
 3. Bot will automatically install dependencies and start
 
 ### Step 2: Invite Bot to Your Server
-Use this invite link (replace YOUR_CLIENT_ID with `1457790457139433533`):
+Use this invite link (replace `YOUR_CLIENT_ID` with your bot's Client ID):
 ```
-https://discord.com/api/oauth2/authorize?client_id=1457790457139433533&permissions=268445760&scope=bot%20applications.commands
+https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=268445760&scope=bot%20applications.commands
 ```
 
 ### Step 3: Configure Your Server
@@ -32,9 +32,9 @@ https://discord.com/api/oauth2/authorize?client_id=1457790457139433533&permissio
 ## 📋 Important Notes
 
 ### Bot Token
-Your bot is already configured with token:
-- Token: `MTQ1Nzc5MDQ1NzEzOTQzMzUzMw.GiHG1-.dSMBcFB0nAhSBStH8Sh8twUG_PWBT7w32G-GzQ`
-- Client ID: `1457790457139433533`
+To run this bot, you must set the following in your environment or Secrets:
+- `DISCORD_TOKEN`: Your bot's secret token
+- `CLIENT_ID`: Your bot's Client ID
 
 ### Required Permissions
 The bot needs:
