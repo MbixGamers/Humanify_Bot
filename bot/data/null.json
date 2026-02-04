@@ -1,0 +1,11 @@
+{
+  "config": {
+    "onDutyRoleId": null,
+    "managementChannelId": null,
+    "managerRoleIds": []
+  },
+  "activeShifts": {},
+  "shiftHistory": [],
+  "activeLOAs": {},
+  "staffStats": {}
+}

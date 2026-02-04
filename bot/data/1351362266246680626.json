@@ -1,0 +1,25 @@
+{
+  "config": {
+    "onDutyRoleId": null,
+    "managementChannelId": null,
+    "reportLogChannelId": null,
+    "reportCooldown": 60,
+    "managerRoleIds": [],
+    "allowedRoleIds": []
+  },
+  "activeShifts": {},
+  "shiftHistory": [],
+  "activeLOAs": {
+    "1271512898899804223": {
+      "startTime": 1769440182370,
+      "endTime": 1770299701647,
+      "duration": "1 week, 2 days",
+      "reason": "Midterms start on Monday the 2nd and end on Thursday the 5th. Since all the exams are happening back to back to back to back I'm gonna take this week off to focus on studying",
+      "notified": false
+    }
+  },
+  "staffStats": {},
+  "warnings": {},
+  "banLogs": [],
+  "kickLogs": []
+}

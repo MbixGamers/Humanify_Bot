@@ -1,0 +1,195 @@
+{
+  "config": {
+    "onDutyRoleId": "1457820722562072818",
+    "managementChannelId": "1459120280692592650",
+    "managerRoleIds": [],
+    "loaRoleId": "1457820774525046834",
+    "allowedRoleIds": [
+      "1458184001780187247",
+      "1462124606893850634"
+    ],
+    "reportLogChannelId": "1463936089428332760",
+    "reportCooldown": 3600
+  },
+  "activeShifts": {},
+  "shiftHistory": [
+    {
+      "userId": "928635423465537579",
+      "startTime": 1767696663573,
+      "endTime": 1767696732043,
+      "scheduledEndTime": 1767696723573,
+      "duration": "1m"
+    },
+    {
+      "userId": "1351918322869993563",
+      "startTime": 1767697197791,
+      "endTime": 1767697224410,
+      "scheduledEndTime": 1767700797791,
+      "duration": "1h"
+    },
+    {
+      "userId": "1351918322869993563",
+      "startTime": 1767697313572,
+      "endTime": 1767697376255,
+      "scheduledEndTime": 1767697373572,
+      "duration": "1m"
+    },
+    {
+      "userId": "928635423465537579",
+      "startTime": 1767697650030,
+      "endTime": 1767697683097,
+      "scheduledEndTime": 1767697710030,
+      "duration": "1m"
+    },
+    {
+      "userId": "928635423465537579",
+      "startTime": 1767697832158,
+      "endTime": 1767697976658,
+      "scheduledEndTime": 1767701432158,
+      "duration": "1h"
+    },
+    {
+      "userId": "928635423465537579",
+      "startTime": 1767715552115,
+      "endTime": 1767715631383,
+      "scheduledEndTime": 1772899552115,
+      "duration": "2m",
+      "messages": 12
+    },
+    {
+      "userId": "1351918322869993563",
+      "startTime": 1767715712144,
+      "endTime": 1767715765859,
+      "scheduledEndTime": 1772899712144,
+      "duration": "2m",
+      "messages": 16
+    },
+    {
+      "userId": "928635423465537579",
+      "startTime": 1767955320521,
+      "endTime": 1767955404284,
+      "scheduledEndTime": 1767955380521,
+      "duration": "1m",
+      "messages": 0
+    },
+    {
+      "userId": "1156225523228356618",
+      "startTime": 1768667643938,
+      "endTime": 1768667712012,
+      "scheduledEndTime": 1768671243938,
+      "duration": "1h",
+      "messages": 7
+    },
+    {
+      "userId": "1156225523228356618",
+      "startTime": 1768667761016,
+      "endTime": 1768668458239,
+      "scheduledEndTime": 1768674961016,
+      "duration": "1h",
+      "messages": 14
+    },
+    {
+      "userId": "1156225523228356618",
+      "startTime": 1768668470085,
+      "endTime": 1768668474114,
+      "scheduledEndTime": 1768668530085,
+      "duration": "1m",
+      "messages": 0
+    },
+    {
+      "userId": "1156225523228356618",
+      "startTime": 1768668480653,
+      "endTime": 1768668682181,
+      "scheduledEndTime": 1768675680653,
+      "duration": "1h",
+      "messages": 8
+    },
+    {
+      "userId": "928635423465537579",
+      "startTime": 1768668772587,
+      "endTime": 1768669100026,
+      "scheduledEndTime": 1768669072587,
+      "duration": "3m",
+      "messages": 14
+    },
+    {
+      "userId": "1156225523228356618",
+      "startTime": 1768668735234,
+      "endTime": 1769092335037,
+      "scheduledEndTime": 1768679535234,
+      "duration": "1h",
+      "messages": 31
+    },
+    {
+      "userId": "928635423465537579",
+      "startTime": 1769623946177,
+      "endTime": 1769623977629,
+      "scheduledEndTime": 1769624006177,
+      "duration": "1m",
+      "messages": 0
+    }
+  ],
+  "activeLOAs": {},
+  "staffStats": {
+    "928635423465537579": {
+      "totalMessages": 26,
+      "totalDurationMs": 521922,
+      "totalKicks": 1
+    },
+    "1351918322869993563": {
+      "totalMessages": 16,
+      "totalDurationMs": 53715
+    },
+    "1156225523228356618": {
+      "totalMessages": 60,
+      "totalDurationMs": 424570657
+    }
+  },
+  "warnings": {
+    "928635423465537579": [
+      {
+        "moderatorId": "928635423465537579",
+        "reason": "demo",
+        "timestamp": 1769100282427
+      },
+      {
+        "moderatorId": "928635423465537579",
+        "reason": "being gay",
+        "timestamp": 1769104972006
+      }
+    ],
+    "769554592223854602": [
+      {
+        "moderatorId": "928635423465537579",
+        "reason": "test",
+        "timestamp": 1769104823757
+      },
+      {
+        "moderatorId": "928635423465537579",
+        "reason": "be polite chud",
+        "timestamp": 1769105098510
+      }
+    ],
+    "1273500145711059006": [
+      {
+        "moderatorId": "928635423465537579",
+        "reason": "bc I said so",
+        "timestamp": 1769105001672
+      },
+      {
+        "moderatorId": "928635423465537579",
+        "reason": "be polite gng",
+        "timestamp": 1769105124392
+      }
+    ]
+  },
+  "kickLogs": [
+    {
+      "targetId": "1351918322869993563",
+      "targetTag": "mia._.mf",
+      "moderatorId": "928635423465537579",
+      "reason": "Testing",
+      "timestamp": 1769103072966
+    }
+  ]
+}

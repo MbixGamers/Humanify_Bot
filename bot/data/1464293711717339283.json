@@ -1,0 +1,17 @@
+{
+  "config": {
+    "onDutyRoleId": null,
+    "managementChannelId": null,
+    "reportLogChannelId": null,
+    "reportCooldown": 60,
+    "managerRoleIds": [],
+    "allowedRoleIds": []
+  },
+  "activeShifts": {},
+  "shiftHistory": [],
+  "activeLOAs": {},
+  "staffStats": {},
+  "warnings": {},
+  "banLogs": [],
+  "kickLogs": []
+}

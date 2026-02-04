@@ -1,0 +1,17 @@
+  {
+  "name": "staff-management-bot",
+  "version": "1.0.0",
+  "description": "Discord Staff Management System with shift tracking and applications",
+  "main": "init.js",
+  "scripts": {
+    "start": "node init.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["discord", "bot", "staff-management"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
+  }
+}
